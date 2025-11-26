@@ -39,8 +39,7 @@ To build from source, clone the latest version from this repository into your ca
 using
 
 	cd catkin_workspace/src
-	git clone git@github.com:gdut-dynamic-x/rm_description.git
-    # git clone https://github.com/Whathelp233/rm_description_for_task.git
+  git clone https://github.com/Whathelp233/rm_description_for_task.git
 	cd ../
 	rosdep install --from-paths . --ignore-src
 	catkin build # Actually nothing to build
